@@ -15,7 +15,7 @@ The Caesar Cipher is a simple and classic encryption technique where each letter
 <p align="center">
     <img width="49%" src="screenshots/screenshot-1.png"/>
 &nbsp;
-    <img width="48.26%" src="screenshots/screenshot-2.png"/>
+    <img width="49%" src="screenshots/screenshot-2.png"/>
 
 </details>
 
