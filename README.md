@@ -5,7 +5,7 @@
 <br>
 <br>
 
-The Caesar Cipher is a simple and classic encryption technique where each letter in a string is shifted by a fixed number of positions in the alphabet. This project takes an input string and a shift factor, then outputs the encrypted message while maintaining spaces and punctuation.
+This project is part of The Odin Project's Ruby course. In this assignment, I implemented a Caesar cipher, a simple yet widely known encryption technique that replaces each letter in the plaintext with a letter a fixed number of positions down the alphabet. The challenge reinforced my understanding of string manipulation, conditionals, and flow control in Ruby.
 
 <details open>
 <summary>
@@ -21,31 +21,31 @@ The Caesar Cipher is a simple and classic encryption technique where each letter
 
 ## 📝 Project Objective
 
-The objective of this project is to reinforce the basics of Ruby by manipulating strings, arrays, and flow control structures. It helps build a deeper understanding of character encoding, loops, and conditionals through the implementation of an encryption technique.
+The goal was to create a method that takes a string and a shift factor, then outputs the modified string according to the Caesar cipher rules. This project helped solidify my knowledge of string handling and character encoding in Ruby.
 
 ## 🔧 Features
 
-- Encrypts a given string using the Caesar Cipher method.
+- Accepts a string input and a shift factor.
 
-- Maintains the case of the original characters (uppercase and lowercase letters remain unchanged).
+- Handles both uppercase and lowercase letters while maintaining their case.
 
-- Punctuation and spaces are preserved in the output.
+- Wraps around the alphabet, so letters shifted past 'z' return to 'a'.
 
-- Wraps around the alphabet (e.g., 'z' becomes 'a' when shifted forward).
+- Ignores non-alphabetic characters, keeping them unchanged.
 
 ## 📖 Learnings
 
-- **String manipulation**: Handling character conversions between letters and numbers using ASCII codes.
+- **String Manipulation**: Improved my ability to manipulate and iterate through strings in Ruby.
 
-- **Control flow**: Utilizing conditionals and loops to implement the wrapping of letters.
+- **Conditionals**: Enhanced my understanding of conditionals to determine character cases and handle logic.
 
-- **Modular arithmetic**: Applying the modulus operator to ensure correct letter shifts within the bounds of the alphabet.
+- **Character Encoding**: Gained experience with ASCII values and how to convert characters based on their ordinal values.
 
-- **Case preservation**: Implementing logic to distinguish between uppercase and lowercase characters.
+- **Algorithm Development**: Practiced creating a simple encryption algorithm while focusing on code efficiency and clarity.
 
 ## 💻 Technologies Used
 
-- **Ruby** for implementing the Caesar Cipher algorithm and managing string manipulations.
+- **Ruby** for implementing the functionality of the Caesar cipher.
 
 ## 💡 Acknowledgments
 
