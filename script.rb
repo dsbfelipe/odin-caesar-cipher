@@ -1,18 +1,16 @@
 $upper_cases = (65..90)
 $lower_cases = (97..122)
 
-def is_upper_case?(char) 
+def is_upper_case?(char)
   $upper_cases.cover?(char.ord)
 end
 
-def is_lower_case?(char) 
+def is_lower_case?(char)
   $lower_cases.cover?(char.ord)
 end
 
 def wrap_z_to_a(number, range)
-  if number > range.max
-    number = range.min + (number - range.max - 1) 
-  end
+  number = range.min + (number - range.max - 1) if number > range.max
   number
 end
 
@@ -30,4 +28,4 @@ def caesar_cipher(string, shift_factor)
   end.join
 end
 
-puts caesar_cipher("What a string!", 5)
+puts caesar_cipher('What a string!', 5)
