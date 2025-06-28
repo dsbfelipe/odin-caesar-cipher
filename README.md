@@ -7,18 +7,6 @@
 
 This project is part of The Odin Project's Ruby course. In this assignment, I implemented a Caesar cipher, a simple yet widely known encryption technique that replaces each letter in the plaintext with a letter a fixed number of positions down the alphabet. The challenge reinforced my understanding of string manipulation, conditionals, and flow control in Ruby.
 
-<details open>
-<summary>
- Screenshots
-</summary> <br />
-    
-<p align="center">
-    <img width="49%" src="screenshots/screenshot-1.png"/>
-&nbsp;
-    <img width="49%" src="screenshots/screenshot-2.png"/>
-
-</details>
-
 ## 📝 Project Objective
 
 The goal was to create a method that takes a string and a shift factor, then outputs the modified string according to the Caesar cipher rules. This project helped solidify my knowledge of string handling and character encoding in Ruby.
